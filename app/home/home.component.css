@@ -1,0 +1,21 @@
+FlexboxLayout {
+  justify-content: center;
+  align-items: center;
+  background-color: #0f3a7a;
+}
+StackLayout {
+  width: 300;
+  padding: 10 16;
+  background-color: #0f3a7a;
+}
+
+Button{
+  margin-bottom: 50;
+  margin-top: 0;
+  border-radius: 20;
+  border-width: 50;
+}
+TextField{
+  margin-bottom: 10;
+  margin-top: 0;
+}

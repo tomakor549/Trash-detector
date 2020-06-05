@@ -1,0 +1,9 @@
+<ActionBar title="Trash Detector"></ActionBar>
+<FlexboxLayout>
+    <StackLayout class="form" [class.dark]="true">
+        <Button [text]="'Dodaj zgloszenie'" class="btn btn-primary"
+            (tap)="cam()"></Button>
+        <Button [text]="'Twoje zgloszenia'" class="btn btn-primary"
+            (tap)="list()"></Button>
+    </StackLayout>
+</FlexboxLayout>
